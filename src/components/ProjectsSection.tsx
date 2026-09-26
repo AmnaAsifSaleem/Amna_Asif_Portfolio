@@ -25,7 +25,7 @@ export const ProjectsSection = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8 w-full max-w-[95%] xl:max-w-[1800px] mx-auto px-4 sm:px-6">
           {projects.map((project, index) => (
             <Card 
               key={project.id} 

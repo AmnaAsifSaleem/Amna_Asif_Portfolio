@@ -35,9 +35,9 @@ export const SkillsSection = () => {
       icon: Wrench,
       skills: [
         { name: "Git", level: 90, description: "Version control" },
-        { name: "GitHub", level: 88, description: "Code collaboration" },
-        { name: "Figma", level: 85, description: "UI/UX design" },
-        { name: "Postman", level: 80, description: "API testing" }
+        { name: "Docker", level: 85, description: "Containerization" },
+        { name: "Suricata", level: 80, description: "Network Threat Detection" },
+        { name: "Figma", level: 85, description: "UI/UX design" }
       ],
       color: "secondary"
     },
@@ -45,8 +45,8 @@ export const SkillsSection = () => {
       title: "Methods",
       icon: Target,
       skills: [
+        { name: "Vulnerability Scanning", level: 85, description: "Security Assessment" },
         { name: "Agile", level: 80, description: "Development methodology" },
-        { name: "Scrum", level: 75, description: "Project management" },
         { name: "OOP", level: 85, description: "Programming paradigm" },
         { name: "Responsive Design", level: 90, description: "Mobile-first approach" }
       ],
@@ -55,8 +55,8 @@ export const SkillsSection = () => {
   ];
 
   const floatingSkills = [
-    "React", "JavaScript", "Node.js", "MongoDB", "TailwindCSS", 
-    "Express.js", "Git", "Figma", "REST APIs", "MERN Stack"
+    "React", "JavaScript", "Node.js", "Docker", "Suricata", 
+    "Express.js", "Vulnerability Scanning", "NLP", "REST APIs", "Cybersecurity"
   ];
 
   return (
@@ -166,9 +166,9 @@ export const SkillsSection = () => {
           
           <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
             {[
-              "⚛️ React", "🟨 JavaScript", "🔷 TypeScript", "🎨 TailwindCSS", 
-              "🟢 Node.js", "🍃 MongoDB", "📱 Figma", "🐙 GitHub",
-              "⚡ Vite", "📦 npm", "🎯 REST APIs", "🚀 MERN Stack"
+              "⚛️ React", "🛡️ Suricata", "🐳 Docker", "🤖 NLP", 
+              "🟢 Node.js", "🍃 MongoDB", "🔍 Vuln Scanning", "🔐 Cybersecurity",
+              "🎯 REST APIs", "🚀 MERN Stack", "🌐 APIs", "⚡ Vite"
             ].map((tech, index) => (
               <div
                 key={tech}

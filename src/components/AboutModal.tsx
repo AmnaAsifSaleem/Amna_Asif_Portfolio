@@ -41,7 +41,7 @@ export const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
                 Amna Asif
               </h2>
               <p className="text-primary-foreground/90 text-lg">
-                Frontend Developer & Software Engineering Student
+                Software Engineer | Cybersecurity Enthusiast | AI Developer
               </p>
             </div>
           </div>
@@ -52,9 +52,10 @@ export const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
             <div className="space-y-3">
               <h3 className="text-xl font-semibold text-foreground">About Me</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I'm a 6th semester Software Engineering student passionate about frontend development, 
-                UI/UX design in Figma, and full-stack MERN applications. I love building clean user 
-                experiences and working on both university and personal tech projects.
+                I'm a 6th semester Software Engineering student passionate about full-stack development, 
+                cybersecurity, and artificial intelligence. My core expertise lies in the MERN stack, 
+                along with recent hands-on experience in AI/NLP (Intelligent Chatbots) and deep network 
+                security/vulnerability scanning using Suricata and Docker (CAVE-OT).
               </p>
             </div>
 
@@ -63,9 +64,9 @@ export const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
               <h3 className="text-xl font-semibold text-foreground">Skills & Interests</h3>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "React", "JavaScript", "TypeScript", "Node.js", "MongoDB",
-                  "Express.js", "Figma", "UI/UX Design", "Tailwind CSS",
-                  "Git", "Frontend Development", "Full-Stack Development"
+                  "React", "Node.js", "MongoDB", "AI / NLP", "Cybersecurity",
+                  "Suricata", "Docker", "Vulnerability Scanning", "REST APIs",
+                  "MERN Stack", "Frontend Development", "Full-Stack Development"
                 ].map((skill) => (
                   <span
                     key={skill}

@@ -27,17 +27,20 @@ export const HeroSection = () => {
                   Amna Asif
                 </h1>
                 <p className="text-primary-foreground/90 text-xl mb-4">
-                  Full Stack Developer & Software Engineering Student
+                  Software Engineer | Cybersecurity Enthusiast | AI Developer
                 </p>
                 <div className="flex flex-wrap gap-3 justify-center">
                   <span className="px-4 py-2 bg-primary-foreground/20 rounded-full text-primary-foreground text-sm">
+                    Full Stack Dev
+                  </span>
+                  <span className="px-4 py-2 bg-primary-foreground/20 rounded-full text-primary-foreground text-sm">
+                    Cybersecurity
+                  </span>
+                  <span className="px-4 py-2 bg-primary-foreground/20 rounded-full text-primary-foreground text-sm">
+                    AI/NLP
+                  </span>
+                  <span className="px-4 py-2 bg-primary-foreground/20 rounded-full text-primary-foreground text-sm">
                     MERN Stack
-                  </span>
-                  <span className="px-4 py-2 bg-primary-foreground/20 rounded-full text-primary-foreground text-sm">
-                    Full Stack
-                  </span>
-                  <span className="px-4 py-2 bg-primary-foreground/20 rounded-full text-primary-foreground text-sm">
-                    UI/UX Design
                   </span>
                 </div>
               </div>
@@ -49,11 +52,11 @@ export const HeroSection = () => {
               <div className="space-y-4">
                 <h2 className="text-2xl font-semibold text-foreground">About Me</h2>
                 <p className="text-muted-foreground leading-relaxed text-lg">
-                  I'm a Software Engineering student passionate about full-stack development 
-                  and building complete web applications from front to back. I specialize in 
-                  the MERN stack and love creating seamless user experiences with clean, 
-                  efficient code. My expertise spans both frontend and backend development, 
-                  with additional skills in UI/UX design to create holistic digital solutions.
+                  I'm a Software Engineering student passionate about full-stack development, 
+                  cybersecurity, and artificial intelligence. My technical journey spans building 
+                  robust web applications with the MERN stack, developing intelligent NLP-powered 
+                  assistants, and exploring network security through vulnerability scanning and CAVE-OT. 
+                  I love creating holistic digital solutions that are both secure and user-centric.
                 </p>
               </div>
 
@@ -79,7 +82,7 @@ export const HeroSection = () => {
                     <Button
                       variant="outline"
                       className="justify-start hover:bg-primary/20 hover:text-primary hover:border-primary"
-                      onClick={() => window.open("#", "_blank")}
+                      onClick={() => window.open("/resume.pdf", "_blank")}
                     >
                       <Download className="w-4 h-4 mr-2" />
                       Download Resume

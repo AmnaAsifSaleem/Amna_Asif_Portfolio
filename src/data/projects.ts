@@ -1,7 +1,8 @@
 import { Project } from "@/components/ProjectCard";
 import autoimmuneImage from "@/assets/project-autoimmune.jpg";
 import busSystemImage from "@/assets/project-bus-system.png";
-import movieRecImage from "@/assets/project-movie-rec.jpg";
+import auraImage from "@/assets/project-aura.png";
+import caveotImage from "@/assets/project-cave-ot.png";
 
 export const projects: Project[] = [
   {
@@ -24,11 +25,20 @@ export const projects: Project[] = [
   },
   {
     id: "3",
-    title: "Movie Recommendation System Backend",
-    description: "Built a sophisticated backend system for movie recommendations using advanced algorithms and data processing techniques. Designed to provide personalized movie suggestions based on user preferences and viewing history.",
-    image: movieRecImage,
-    githubUrl: "https://github.com/AmnaAsifSaleem/Movie_RecommendationSystem",
-    technologies: ["Python", "Machine Learning", "Data Processing", "Recommendation Algorithms"],
+    title: "CAVE-OT (Context-Aware Vulnerability Engine)",
+    description: "An OT/IT vulnerability engine that prioritizes threats based on context. Fetches data via NVD API, performs model training, and maps attack paths. Features human-in-the-loop recommendations (accept/reject) and comprehensive policy compliance tracking.",
+    image: caveotImage,
+    githubUrl: "https://github.com/AmnaAsifSaleem",
+    technologies: ["Machine Learning", "NVD API", "Attack Paths", "Cybersecurity", "Policy Compliance"],
+    liveUrl: ""
+  },
+  {
+    id: "4",
+    title: "Aura - AI Event Booking Assistant",
+    description: "Grand Vista Venue & Event Assistant powered by qwen2.5:1.5b via Ollama. Features a FastAPI async WebSocket backend with context memory and a glassmorphic real-time UI showing live telemetry (Tokens/Sec, Latency). Includes domain guardrails and automated benchmarking.",
+    image: auraImage,
+    githubUrl: "https://github.com/AmnaAsifSaleem",
+    technologies: ["Ollama (Qwen2.5)", "FastAPI", "WebSockets", "React", "NLP", "Python"],
     liveUrl: ""
   }
 ];
